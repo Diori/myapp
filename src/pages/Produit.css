@@ -1,0 +1,47 @@
+.contenuu-prod{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1rem;   
+}
+.img-prod{
+    flex: 2 1 20rem;
+}
+.img-prod img{
+    max-width: 20rem;
+    widows: 100%;
+}
+.info-prod{
+    flex: 1 1 10rem;
+
+    }
+.oder-prode{
+    flex: 1 1 30rem;
+    }
+.info-prod ul, .action ul{
+    list-style-type: none;
+    padding: 0;
+}
+.info-prod li, .action li{
+    margin-bottom: .5rem;
+}
+.action{
+    border: .2rem #808080 solid;
+    border-radius: 0.5rem;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+.action ul li:last-child{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: .2rem;
+    border : .3rem #808080 solid;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+button:hover{
+    border : .3rem #404040 solid;
+}
